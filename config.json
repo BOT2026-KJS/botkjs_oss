@@ -1,0 +1,25 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 5000,
+    "max_workers": 3,
+    "max_kpj_per_task": 100,
+    "timeout_minutes": 30
+  },
+  "captcha": {
+    "api_key": "c56fb68f0eac8c8e8ecd9ff8ad6deb58",
+    "provider": "2captcha",
+    "timeout": 60
+  },
+  "urls": {
+    "oss_login": "https://oss.bpjsketenagakerjaan.go.id/oss?token=ZW1haWw9U05MTlVUUkFDRVVUSUNBTEBHTUFJTC5DT00mbmliPTAyMjA0MDAyNjA4NTY=",
+    "oss_input": "https://oss.bpjsketenagakerjaan.go.id/oss/input-tk",
+    "lapakasik": "https://lapakasik.bpjsketenagakerjaan.go.id/?source=e419a6aed6c50fefd9182774c25450b333de8d5e29169de6018bd1abb1c8f89b"
+  },
+  "bot_settings": {
+    "headless": true,
+    "delay_between_kpj": 3,
+    "max_retries": 2,
+    "save_debug": false
+  }
+}
